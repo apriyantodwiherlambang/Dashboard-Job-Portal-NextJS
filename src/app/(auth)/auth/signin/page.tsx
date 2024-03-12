@@ -80,7 +80,7 @@ const SignInPage: FC<SignInPageProps> = ({}) => {
 
               <div className="text-sm">
                 Dont have an account {" "}
-                <Link href="/signup" className="text-primary">Sign Up</Link>
+                <Link href="/auth/signup" className="text-primary">Sign Up</Link>
               </div>
             </form>
           </Form>
